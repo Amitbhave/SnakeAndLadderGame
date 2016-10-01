@@ -70,42 +70,6 @@ public class NewGame extends JFrame {
 		panel.setVisible(true);
 		add(panel);
 		this.setVisible(true);
-
-		//TODO:remove this after test
-		this.addMouseListener(new MouseListener() {
-			
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-				
-			}
-			
-			@Override
-			public void mousePressed(MouseEvent e) {
-				// TODO Auto-generated method stub
-				
-			}
-			
-			@Override
-			public void mouseExited(MouseEvent e) {
-				// TODO Auto-generated method stub
-				
-			}
-			
-			@Override
-			public void mouseEntered(MouseEvent e) {
-				// TODO Auto-generated method stub
-				
-			}
-			
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				// TODO Auto-generated method stub
-				int x=e.getX();
-			    int y=e.getY();
-			    System.out.println(x+","+y);
-			}
-		});
 		
 		throwDice.addActionListener(new ActionListener() {
 
