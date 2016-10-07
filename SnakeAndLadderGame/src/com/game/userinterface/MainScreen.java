@@ -55,9 +55,6 @@ public class MainScreen extends JFrame {
 		player2Name = new JTextField();
 		player2Name.setBounds(500, 200, 100, 25);
 
-		player1Name.setText("Virat");
-		player2Name.setText("Yuvi");
-
 		play = new JButton();
 		play.setText("Play");
 		play.setBounds(400, 300, 80, 25);
